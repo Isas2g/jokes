@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+.content {
+    text-align: center;
+    width: 100%;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu-el {
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    width: 230px;
+    height: 60px;
+    color: #fff;
+    transition: .3s;
+    cursor: pointer;
+    margin: 0;
+}
+
+.menu-el:hover {
+    background: #fff;
+    color: #000;
+}
+
+.active-menu-el {
+    background: #fff;
+    color: #000;
+}
+
+#infoText, #hotelsText, #costsText, #photoText {
+    font-family: Ubuntu;
+    color: #000;
+    text-align: left;
+    max-width: 600px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+#infoText p, #hotelsText p {
+    margin-top: 40px;
+}
+
+.non-active {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+#map {
+    width: calc(100% - 80px);
+    height: 480px;
+}
+
+#frame {
+    width: 600px;
+    height: 500px;
+}
+
+@media (max-width: 500px) {
+    .menu-el {
+        display: block;
+        width: 100%;
+    }
+}
