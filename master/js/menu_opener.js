@@ -1,4 +1,4 @@
-const info = document.getElementById('info');
+    const info = document.getElementById('info');
     const hotels = document.getElementById('hotels');
     const costs = document.getElementById('costs');
     const photo = document.getElementById('photo');

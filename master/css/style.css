@@ -2702,6 +2702,7 @@ figure.youtube a img {
 
 figure img {
     max-width: 100%;
+    height: 270px;
     display: block;
     position: relative;
     z-index: 10;
@@ -2713,8 +2714,8 @@ figure img {
     height: 100px;
     width: 100%;
     top: auto;
-    background: #2c3f52;
-    color: #ed4e6e;
+    background: #000;
+    color: yellow;
     opacity: 0;
     bottom: 0;
     transform: translateY(100%);
@@ -2745,10 +2746,11 @@ figure:hover figcaption {
 figcaption a {
     position: absolute;
     right: 5%;
-    top: 20px;
+    top: 50px;
     border-radius: 2px;
-    background: #ed4e6e;
-    color: #fff;
+    background: #fff;
+    color: #000;
+    font-size: 17px;
 }
 
 .text-center {
@@ -2767,17 +2769,20 @@ figcaption a {
 
 /* #Media
 ================================================== */
+@media (min-width: 900px) {
+    .grid figcaption h3 {
+        font-size: 30px;
+    }
+}
+
 @media (max-width: 300px) {
     #index-black-place {
         height: 20px;
     }
     
-    figcaption {
-        overflow: visible;
-    }
     
     figcaption a {
-        top: -20px;
+        width: 20%;
     }
 }
 
@@ -2787,6 +2792,11 @@ figcaption a {
         width: 100%;
         min-width: 200px;
     }
+    
+    figure img {
+        height: auto;
+    }
+    
     figure:hover img {
         transform: translateY(-70px);
     }

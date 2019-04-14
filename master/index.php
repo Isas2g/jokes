@@ -111,51 +111,51 @@
         </li>
         <li>
             <figure>
-                <img src="img/stolbik.jpg" alt="img01">
+                <img src="img/499.jpg" alt="img01">
                 <figcaption>
-                    <h3>Якутия</h3>
-                    <span>Ленские столбы</span>
-                    <a href="gallery.html">Больше...</a>
+                    <h3>Камчатка</h3>
+                    <span>Долина Гейзеров</span>
+                    <a href="geyzer.php">Подробнее...</a>
                 </figcaption>
             </figure>
         </li>
         <li>
             <figure>
-                <img src="img/stolbik.jpg" alt="img01">
+                <img src="img/tmb_155603_1576.jpg" alt="img01">
                 <figcaption>
-                    <h3>Якутия</h3>
-                    <span>Ленские столбы</span>
-                    <a href="gallery.html">Больше...</a>
+                    <h3>Восточная Сибирь</h3>
+                    <span>Озеро Байкал</span>
+                    <a href="baik.php">Подробнее...</a>
                 </figcaption>
             </figure>
         </li>
         <li>
             <figure>
-                <img src="img/stolbik.jpg" alt="img01">
+                <img src="img/Putorano.jpg" alt="img01">
                 <figcaption>
-                    <h3>Якутия</h3>
-                    <span>Ленские столбы</span>
-                    <a href="gallery.html">Больше...</a>
+                    <h3>Красноярский край</h3>
+                    <span>Плато Путорана</span>
+                    <a href="put.php">Подробнее...</a>
                 </figcaption>
             </figure>
         </li>
         <li>
             <figure>
-                <img src="img/stolbik.jpg" alt="img01">
+                <img src="img/9.png" alt="img01">
                 <figcaption>
-                    <h3>Якутия</h3>
-                    <span>Ленские столбы</span>
-                    <a href="gallery.html">Больше...</a>
+                    <h3>Кабардино-Балкария</h3>
+                    <span>Эльбрус</span>
+                    <a href="elb.php">Подробнее...</a>
                 </figcaption>
             </figure>
         </li>
         <li>
             <figure>
-                <img src="img/stolbik.jpg" alt="img01">
+                <img src="img/visit-altai-mountain2.png" alt="img01">
                 <figcaption>
-                    <h3>Якутия</h3>
-                    <span>Ленские столбы</span>
-                    <a href="gallery.html">Больше...</a>
+                    <h3>Республика Алтай</h3>
+                    <span>Алтайские горы</span>
+                    <a href="alt.php">Подробнее...</a>
                 </figcaption>
             </figure>
         </li>
