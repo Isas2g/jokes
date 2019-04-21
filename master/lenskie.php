@@ -93,18 +93,52 @@
 
 
         <div id="hotelsText" class="non-active">
-            <p>
-                
-            </p>
+
+
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://s-ec.bstatic.com/images/hotel/max1280x900/250/25027640.jpg" alt="Los Angeles" width="1100" height="500">
+                        <p>
+                            Гостинично-ресторанный комплекс «Онтарио» находится в экологически чистом районе Якутска и примечателен интерьерами с деревянной отделкой. К услугам гостей бильярд, караоке и бесплатный WiFi.
+                        </p>
+                        <a target="_blank" href="https://www.booking.com/hotel/ru/ontario.html?aid=851003&label=sp_lenskie-stolby"><button class="hotel-link">Перейти...</button></a>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://t-ec.bstatic.com/images/hotel/max1280x900/119/119924804.jpg" alt="Chicago" width="1100" height="500">
+                        <p>
+                            Гостевой дом «Виктория» расположен в Якутске. К услугам гостей круглосуточная стойка регистрации и детская игровая площадка. В гостевом доме обустроен общий лаундж.
+                        </p>
+                        <a target="_blank" href="https://www.booking.com/hotel/ru/ontario.html?aid=851003&label=sp_lenskie-stolby"><button class="hotel-link">Перейти...</button></a>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://s-ec.bstatic.com/images/hotel/max1280x900/771/77134120.jpg" alt="New York" width="1100" height="500">
+                        <p>
+                            Отель типа «постель и завтрак» Bravo расположен в центре Якутска, в 5 минутах ходьбы от площади Ленина и в 3 минутах ходьбы от Театра оперы и балета. К услугам гостей номера с кондиционером, ортопедическими матрасами и собственной ванной комнатой. На всей территории предоставляется бесплатный Wi-Fi.
+                        </p>
+                        <a target="_blank" href="https://www.booking.com/hotel/ru/ontario.html?aid=851003&label=sp_lenskie-stolby"><button class="hotel-link">Перейти...</button></a>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
         </div>
 
-        <div id="costsText" class="non-active">
+    </div>
 
-        </div>
+    <div id="costsText" class="non-active">
 
-        <div id="photoText" class="non-active">
+    </div>
 
-        </div>
+    <div id="photoText" class="non-active">
+
+    </div>
 
     </div>
 

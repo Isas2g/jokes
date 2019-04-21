@@ -7,7 +7,8 @@
     const hotelsText = document.getElementById('hotelsText');
     const costsText = document.getElementById('costsText');
     const photoText = document.getElementById('photoText');
-            
+    
+
         info.addEventListener('click', () => {
             infoText.classList.remove('non-active');
             infoText.classList.add('active');
@@ -21,7 +22,6 @@
             hotels.classList.remove('active-menu-el');
             costs.classList.remove('active-menu-el');
             photo.classList.remove('active-menu-el');
-            
         });
         
         hotels.addEventListener('click', () => {

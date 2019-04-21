@@ -68,7 +68,7 @@
     
 <?php include('header.php');?>
 
-<div style="margin-top: -40px" class="section hero-full-height over-hide">
+<div class="section hero-full-height over-hide">
 
         <div id="poster_background"></div>
         <div id="video-wrap" class="parallax-top">
