@@ -61,7 +61,6 @@
 
     <div class="black-place section background-dark z-too-big">
         <span class="menu-el active-menu-el" id="info">Информация</span>
-        <span class="menu-el" id="hotels">Отели</span>
         <span class="menu-el" id="costs">Цены</span>
         <span class="menu-el" id="photo">Фотографии</span>
     </div>
@@ -69,7 +68,7 @@
     <div class="section content">
 
 
-        <div class="background-sec">
+        <div id="background-sec">
             <div class="sec-inner">
                 <div id="infoText" class="active">
                     <p>
@@ -90,66 +89,6 @@
                         парк состоит из двух филиалов — «Столбы» и «Синский».
                     </p>
                 </div>
-
-                <!--     _______________ Отели       -->
-                <div id="hotelsText" class="non-active">
-
-
-                    <!--       __________________________ Отель Рубин-->
-
-                    <div class="hotel">
-                        <img class="hotel-pic img img-responsive text-center" src="img/hotel_rubin.jpg" alt="">
-
-                        <h3 class="text-center">Rubin Inn <br>
-                            (~1200 руб.)
-                        </h3>
-
-                        <p>
-                            Мини-гостиница «Рубин» расположена в Якутске. К услугам гостей ресторан, круглосуточная стойка регистрации и бесплатный Wi-Fi. Осуществляется доставка еды и напитков в номер. В баре можно заказать напитки.
-
-                            В каждом номере установлен шкаф.
-
-                            Расстояние до аэропорта Якутска составляет 7 км.
-                        </p>
-
-                        <a class="hotel-link" target="_blank" href="https://www.booking.com/hotel/ru/rubin-yakutsk.ru.html?"><button type="button" class="btn btn-success">Перейти...</button></a>
-                    </div>
-
-                    <!--___________________________ВИКТОРИЯ-->
-                    <div class="hotel">
-                        <img class="hotel-pic img img-responsive text-center" src="https://t-ec.bstatic.com/images/hotel/max1024x768/119/119925650.jpg" alt="">
-
-                        <h3 class="text-center">Guest house Viktoria
-                            (~2500 руб.)
-                        </h3>
-
-                        <p>
-                            Гостевой дом «Виктория» расположен в Якутске. К услугам гостей круглосуточная стойка регистрации и детская игровая площадка. В гостевом доме обустроен общий лаундж.
-
-                            Все номера гостевого дома оснащены телевизором. В распоряжении гостей собственная ванная комната. Из некоторых номеров открывается вид на город. Номера оснащены микроволновой печью.
-                        </p>
-
-                        <a class="hotel-link" target="_blank" href="https://www.booking.com/hotel/ru/guest-house-viktoria-yakutsk.html?aid=851003&label=sp_lenskie-stolby"><button type="button" class="btn btn-success">Перейти...</button></a>
-                    </div>
-                    <!--________________________________БРАВО-->
-                    <div class="hotel">
-                        <img class="hotel-pic img img-responsive text-center" src="img/hotel_bravo.jpg" alt="">
-
-                        <h3 class="text-center">Bed & Breakfast Bravo
-                            (~2650 руб.)
-                        </h3>
-
-                        <p>
-                            Отель типа «постель и завтрак» Bravo расположен в центре Якутска, в 5 минутах ходьбы от площади Ленина и в 3 минутах ходьбы от Театра оперы и балета. К услугам гостей номера с кондиционером, ортопедическими матрасами и собственной ванной комнатой. На всей территории предоставляется бесплатный Wi-Fi.
-                        </p>
-
-                        <a target="_blank" href="https://www.booking.com/hotel/ru/bed-and-breakfast-bravo.ru.html?"><button type="button" class="btn btn-success">Перейти...</button></a>
-                    </div>
-                    <!--   ________________ Конец отелей        -->
-                </div>
-
-
-
 
                 <div id="costsText" class="non-active">
                     <!--           ___________ ЦЕНЫ-->
@@ -179,7 +118,44 @@
                 </div>
 
                 <div id="photoText" class="non-active">
-
+                    <div class="row">
+                        <div class="col-lg-12 col-cm-12 col-md-12">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="img/ctolby1.jpg" alt="First slide">
+                                    </div>
+                                    <div class="carousel-item  active">
+                                        <img class="d-block w-100" src="img/stolby2.jpg" alt="Second slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="img/stolby3.jpg" alt="Third slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="img/stolby4.jpg" alt="Second slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="img/stolby5.jpg" alt="Second slide">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
