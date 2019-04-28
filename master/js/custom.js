@@ -1,4 +1,4 @@
-(function($) { "use strict";
+ (function($) { "use strict";
 
 	document.documentElement.className="js";
 
@@ -343,3 +343,12 @@
 	
 	
   })(jQuery); 
+
+(async ()=>{
+for (let node of document.getElementsByTagName('img')) {
+ await new Promise(res=>{
+ node.src=node.dataset.src;
+ node.onload = ()=>res();
+})
+}
+})(); 

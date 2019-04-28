@@ -39,7 +39,7 @@
     <div class="section hero-full-height over-hide">
         <div id="poster_background"></div>
         <div id="video-wrap" class="parallax-top">
-            <img src="img/57c57f8289f7b156db7a1605.jpg" alt="" class="img img-responsive">
+            <img data-src="img/57c57f8289f7b156db7a1605.jpg" alt="" class="img img-responsive">
         </div>
         <div class="dark-over-video"></div>
 

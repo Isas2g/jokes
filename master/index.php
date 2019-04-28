@@ -101,7 +101,7 @@
     <ul class="grid cs-style-1">
         <li>
             <figure>
-                <img src="img/stolbik.jpg" alt="img01">
+                <img data-src="img/stolbik.jpg" alt="img01">
                 <figcaption>
                     <h3>Якутия</h3>
                     <span>Ленские столбы</span>
@@ -111,7 +111,7 @@
         </li>
         <li>
             <figure>
-                <img src="img/499.jpg" alt="img01">
+                <img data-src="img/499.jpg" alt="img01">
                 <figcaption>
                     <h3>Камчатка</h3>
                     <span>Долина Гейзеров</span>
@@ -121,7 +121,7 @@
         </li>
         <li>
             <figure>
-                <img src="img/tmb_155603_1576.jpg" alt="img01">
+                <img data-src="img/tmb_155603_1576.jpg" alt="img01">
                 <figcaption>
                     <h3>Восточная Сибирь</h3>
                     <span>Озеро Байкал</span>
@@ -131,7 +131,7 @@
         </li>
         <li>
             <figure>
-                <img src="img/Putorano.jpg" alt="img01">
+                <img data-src="img/Putorano.jpg" alt="img01">
                 <figcaption>
                     <h3>Красноярский край</h3>
                     <span>Плато Путорана</span>
@@ -141,7 +141,7 @@
         </li>
         <li>
             <figure>
-                <img src="img/9.png" alt="img01">
+                <img data-src="img/9.png" alt="img01">
                 <figcaption>
                     <h3>Кабардино-Балкария</h3>
                     <span>Эльбрус</span>
@@ -151,7 +151,7 @@
         </li>
         <li>
             <figure>
-                <img src="img/visit-altai-mountain2.png" alt="img01">
+                <img data-src="img/visit-altai-mountain2.png" alt="img01">
                 <figcaption>
                     <h3>Республика Алтай</h3>
                     <span>Алтайские горы</span>

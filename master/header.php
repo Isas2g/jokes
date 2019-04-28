@@ -3,7 +3,7 @@
         <div class="menu-top background-black">
         </div>
             <div class="logo">
-                <a href="index.php"><img src="img/logo.png" alt=""></a>
+                <a href="index.php"><img data-src="img/logo.png" alt=""></a>
             </div>
         <div class="menu">
             <ul>
