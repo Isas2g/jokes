@@ -5,8 +5,9 @@
                     <p>2019 © Паша и Ренат. Все права сохранены.</p>
                 </div>
                 <div class="col-md-6 text-center text-md-right">
-                    <a href="#" class="social-footer-bottom">vkontakte</a>
-                    <a href="#" class="social-footer-bottom">youtube</a>
+                    <a target="_blank" href="https://vk.com/isas2g2" class="social-footer-bottom">vkontakte_Renat</a>
+                    <a target="_blank" href="https://vk.com/id367251298" class="social-footer-bottom">vkontakte_Pavel</a>
+                    <a target="_blank" href="https://www.youtube.com/channel/UCFyJLrmY4P1DJUO7cnTrVXQ?view_as=subscriber" class="social-footer-bottom">youtube</a>
                 </div>
             </div>
         </div>

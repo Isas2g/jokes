@@ -1,8 +1,5 @@
-
 .content {
     text-align: center;
-    width: 100%;
-    min-height: 370px;
 }
 
 .menu-el {
@@ -28,7 +25,10 @@
     color: #000;
 }
 
-#infoText, #hotelsText, #costsText, #photoText {
+#infoText,
+#hotelsText,
+#costsText,
+#photoText {
     margin: 0 auto;
     color: #000;
     text-align: left;
@@ -36,23 +36,41 @@
     font-size: 20px;
 }
 
-#background-sec {
-    background: url(https://wallpapertag.com/wallpaper/full/5/e/2/947381-free-download-siberia-wallpaper-1920x1080-for-samsung.jpg) center center no-repeat;
+#background-sec-lenskie {
+    background: url(../img/lenskie/lenskie_bg.gif) center center no-repeat;
 }
 
-#background-sec2 {
-    background: url() center center no-repeat;
+#background-sec-geyzer {
+    background: url(../img/dolina_geyzerov/dolina_geyz.jpg) center center no-repeat;
 }
 
+#background-sec-baikal {
+    background: url(../img/baikal/baikal_bg.gif) center center no-repeat;
+}
 
-#background-sec, #background-sec2, #background-sec3, #background-sec4, #background-sec5, #background-sec6 {
+#background-sec-putorana {
+    background: url(../img/plato_putorana/putorana_bg.gif) center center no-repeat;
+}
+
+#background-sec-elbrus {
+    background: url(../img/elbrus/elbrus_bg.gif) center center no-repeat;
+}
+
+#background-sec-altai {
+    background: url(../img/altai/altai_bg.gif) center center no-repeat;
+}
+
+#background-sec-lenskie,
+#background-sec-geyzer,
+#background-sec-baikal,
+#background-sec-putorana,
+#background-sec-elbrus,
+#background-sec-altai {
     z-index: -2;
-    width: 100%;
     -webkit-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
 }
-
 
 .sec-inner {
     z-index: 2;
@@ -62,7 +80,8 @@
     padding-top: 50px;
 }
 
-#infoText p, #hotelsText p {
+#infoText p,
+#hotelsText p {
     margin-top: 40px;
 }
 
@@ -76,6 +95,10 @@
 
 .slide {
     margin-bottom: 40px;
+}
+
+.btn-info {
+    margin-bottom: 20px;
 }
 
 #map {
@@ -94,29 +117,26 @@
     font-size: 18px;
 }
 
-.btn-success {
-    margin-bottom: 40px;
-}
-
 .hotel {
-     margin-top: 50px;
+    margin-top: 50px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
     .menu-el {
         display: block;
         width: 100%;
     }
-    
     .sec-inner {
         width: 100%;
     }
-    
-    #infoText, #hotelsText, #costsText, #photoText {
-    width: 100%;
+    #infoText,
+    #hotelsText,
+    #costsText,
+    #photoText {
+        width: 100%;
     }
-    
-    #hotelsText h3, #hotelsText img {
+    #hotelsText h3,
+    #hotelsText img {
         width: 100%;
         height: auto;
     }

@@ -44,7 +44,7 @@
     <div class="section hero-full-height over-hide">
         <div id="poster_background"></div>
         <div id="video-wrap" class="parallax-top">
-            <img data-src="img/dolina_geyz.jpg" alt="" class="img img-responsive">
+            <img data-src="img/dolina_geyzerov/dolina_geyz.jpg" alt="" class="img img-responsive">
         </div>
         <div class="dark-over-video"></div>
 
@@ -68,7 +68,7 @@
     <div class="section content">
 
 
-        <div id="background-sec">
+        <div id="background-sec-geyzer">
             <div class="sec-inner">
                 <div id="infoText" class="active">
                     <p>
@@ -84,7 +84,7 @@
                 <div id="costsText" class="non-active">
                     <!--           ___________ ЦЕНЫ-->
                     <dl>
-                        <dt><a class="link" href="https://pro-adventure.ru/tours/id_1299_vertoletnaya-ekskursiya-v-dolinu-gejzerov">Pro Adventure </a></dt>
+                        <dt><a target="_blank" class="link" href="https://pro-adventure.ru">Pro Adventure </a></dt>
                         <br><br>
                         <dd>Стоимость в 2019 году: <br>
 
@@ -98,10 +98,11 @@
                                 <li>Купание в горячих источниках</li>
                                 <li>Сопровождение квалифицированным гидом-экскурсоводом</li>
                             </ul>
+                            <a target="_blank" href="https://pro-adventure.ru/tours/id_1299_vertoletnaya-ekskursiya-v-dolinu-gejzerov"><button type="button" class="btn btn-info">Подробнее</button></a>
                         </dd>
                         <br>
                         <dt>
-                            <a class="link" href="http://ist-travel.ru/tours/excursion/dolina-gejzerov-uzon.html">Туроператор "IST Travel"</a>
+                            <a target="_blank" class="link" href="http://ist-travel.ru">Туроператор "IST Travel"</a>
                         </dt>
                         <br><br>
                         <dd>
@@ -116,7 +117,7 @@
                                 <li>Возвращение в аэропорт (20 мин.).</li>
                                 <li>Трансфер в гостиницу</li>
                             </ul>
-                            
+                            <a target="_blank" href="http://ist-travel.ru/tours/excursion/dolina-gejzerov-uzon.html"><button type="button" class="btn btn-info">Подробнее</button></a>
                         </dd>
                     </dl>
 
@@ -124,7 +125,7 @@
 
                 <div id="photoText" class="non-active">
                     <div class="row">
-                        <div class="col-lg-12 col-cm-12 col-md-12">
+                        <div class="col-md-12">
                             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                                 <ol class="carousel-indicators">
                                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -132,22 +133,26 @@
                                     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                                     <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
                                     <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
                                 </ol>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img class="d-block w-100" src="img/ctolby1.jpg" alt="First slide">
+                                        <img class="d-block w-100" data-src="img/dolina_geyzerov/dolina_geyzerov_pic1.gif" alt="First slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="img/stolby2.jpg" alt="Second slide">
+                                        <img class="d-block w-100" data-src="img/dolina_geyzerov/dolina_geyzerov_pic2.gif" alt="Second slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="img/stolby3.jpg" alt="Third slide">
+                                        <img class="d-block w-100" data-src="img/dolina_geyzerov/dolina_geyzerov_pic3.gif" alt="Third slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="img/stolby4.jpg" alt="Second slide">
+                                        <img class="d-block w-100" data-src="img/dolina_geyzerov/dolina_geyzerov_pic4.gif" alt="Second slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="img/stolby5.jpg" alt="Second slide">
+                                        <img class="d-block w-100" data-src="img/dolina_geyzerov/dolina_geyzerov_pic5.gif" alt="Second slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" data-src="img/dolina_geyzerov/dolina_geyzerov_pic6.gif" alt="Second slide">
                                     </div>
                                 </div>
                                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

@@ -8,11 +8,15 @@
         <div class="menu">
             <ul>
                 <li>
-                    <a href="#">Общая информация</a>
+                    <a href="index.php">Главная</a>
                 </li>
                 <li>
-                    <a href="#">Помощь с выбором</a>
+                    <a href="info.php">Общая информация</a>
                 </li>
+                <li>
+                    <a href="help.php">Помощь с выбором</a>
+                </li>
+                
             </ul>
         </div>
 </nav>

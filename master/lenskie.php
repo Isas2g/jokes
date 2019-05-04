@@ -44,7 +44,7 @@
     <div class="section hero-full-height over-hide">
         <div id="poster_background"></div>
         <div id="video-wrap" class="parallax-top">
-            <img data-src="img/hero-stolb.jpg" alt="" class="img img-responsive">
+            <img data-src="img/lenskie/hero-stolb.jpg" alt="" class="img img-responsive">
         </div>
         <div class="dark-over-video"></div>
 
@@ -68,7 +68,7 @@
     <div class="section content">
 
 
-        <div id="background-sec">
+        <div id="background-sec-lenskie">
             <div class="sec-inner">
                 <div id="infoText" class="active">
                     <p>
@@ -93,33 +93,33 @@
                 <div id="costsText" class="non-active">
                     <!--           ___________ ЦЕНЫ-->
                     <dl>
-                        <dt><a class="link" href="http://ru.visityakutia.com/lenskie_stolby_letom/">ООО «Визит Якутия» — туристическая фирма (туроператор) в Якутске, Республика Саха (Якутия).</a></dt>
+                        <dt><a target="_blank" class="link" href="http://ru.visityakutia.com">ООО «Визит Якутия» — туристическая фирма (туроператор) в Якутске, Республика Саха (Якутия).</a></dt>
                         <br><br>
                         <dd>Стоимость в 2019 году: <br>
 
-                            Каюты <br>
-
-                            Люкс = 37000 — 50000 руб/каюта. <br>
-                            Полулюкс (DBL) = 23000 — 29000 руб/каюта. <br>
-                            Двухместная стандартная (Twin) = 21000 — 26000 руб/каюта. <br>
-                            Четырехместная каюта = 35000 — 42000 руб/каюта. <br>
-                            Комплексное питание (6 приемов пищи) = 3850 руб/человек. <br>
-                            Сервисный сбор = 2500 руб/каюта. <br>
-
+                            Каюты
+                        <ul>
+                            <li>Люкс = 37000 — 50000 руб/каюта.</li>
+                            <li>Полулюкс (DBL) = 23000 — 29000 руб/каюта.</li>
+                            <li>Двухместная стандартная (Twin) = 21000 — 26000 руб/каюта.</li>
+                            <li>Четырехместная каюта = 35000 — 42000 руб/каюта.</li>
+                            <li>Комплексное питание (6 приемов пищи) = 3850 руб/человек.</li>
+                             <li>Сервисный сбор = 2500 руб/каюта.</li>
+                        </ul> 
+                        <a target="_blank" href="http://ru.visityakutia.com/lenskie_stolby_letom/"><button type="button" class="btn btn-info">Подробнее</button></a>
                         </dd>
                         <br>
                         <dt>
-                            <a class="link" href="https://www.russiadiscovery.ru/tours/zolotye-skaly-yakutii-splav-po-rekam-sinyaya-i-lena/">Турфирма "RussiaDiscovery" предлагает полноценный тур к достопримечательности:</a>
+                            <a target="_blank" class="link" href="https://www.russiadiscovery.ru">Турфирма "RussiaDiscovery" предлагает полноценный тур к достопримечательности:</a>
                         </dt>
                         <br><br>
                         <dd>Полноценный деcятидневный тур обходится в 47 000 руб./чел.</dd>
+                        <br> <a target="_blank" href="https://www.russiadiscovery.ru/tours/zolotye-skaly-yakutii-splav-po-rekam-sinyaya-i-lena/"><button type="button" class="btn btn-info">Подробнее</button></a>
                     </dl>
 
                 </div>
 
                 <div id="photoText" class="non-active">
-                    <div class="row">
-                        <div class="col-lg-12 col-cm-12 col-md-12">
                             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                                 <ol class="carousel-indicators">
                                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -129,20 +129,20 @@
                                     <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
                                 </ol>
                                 <div class="carousel-inner">
-                                    <div class="carousel-item">
-                                        <img class="d-block w-100" src="img/ctolby1.jpg" alt="First slide">
-                                    </div>
-                                    <div class="carousel-item  active">
-                                        <img class="d-block w-100" src="img/stolby2.jpg" alt="Second slide">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100" data-src="img/lenskie/ctolby1.gif" alt="First slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="img/stolby3.jpg" alt="Third slide">
+                                        <img class="d-block w-100" data-src="img/lenskie/stolby2.jpg" alt="Second slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="img/stolby4.jpg" alt="Second slide">
+                                        <img class="d-block w-100" data-src="img/lenskie/stolby3.jpg" alt="Third slide">
                                     </div>
                                     <div class="carousel-item">
-                                        <img class="d-block w-100" src="img/stolby5.jpg" alt="Second slide">
+                                        <img class="d-block w-100" data-src="img/lenskie/stolby4.jpg" alt="Second slide">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" data-src="img/lenskie/stolby5.jpg" alt="Second slide">
                                     </div>
                                 </div>
                                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -155,8 +155,6 @@
                                 </a>
                             </div>
                         </div>
-                    </div>
-                </div>
             </div>
         </div>
     </div>

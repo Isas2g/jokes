@@ -1,0 +1,19 @@
+body {
+    font-size: 18px;
+}
+
+.active {
+    display: block;
+}
+
+.non-active {
+    display: none;
+}
+
+div {
+    text-align: center;
+}
+
+.content {
+    min-height: 400px;
+}

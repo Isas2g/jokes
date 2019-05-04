@@ -14,8 +14,8 @@
 
 /* #Primary
 ================================================== */
-@import url('https://fonts.googleapis.com/css?family=Comfortaa|Marck+Script');
 
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Marck+Script');
 * {
     margin: 0;
     padding: 0;
@@ -32,64 +32,6 @@ body {
 
 #title-text {
     font-family: 'Marck Script';
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    margin-bottom: 0;
-    line-height: 1.25;
-    color: #363636;
-}
-
-h1,
-.h1 {
-    font-size: 4rem;
-    font-weight: 200;
-}
-
-h2,
-.h2 {
-    font-size: 3.4rem;
-    font-weight: 300;
-}
-
-h3,
-.h3 {
-    font-size: 2.7rem;
-    text-transform: capitalize;
-}
-
-h4,
-.h4 {
-    font-size: 2.2rem;
-}
-
-h5,
-.h5 {
-    font-size: 1.6rem;
-    font-weight: 400;
-    color: #444;
-    text-transform: capitalize;
-}
-
-h6,
-.h6 {
-    font-size: 1rem;
-    text-transform: uppercase;
-    font-weight: 400;
-    letter-spacing: 2px;
 }
 
 ::selection {
@@ -1595,8 +1537,6 @@ video#video_background {
 
 /* свои мои стили */
 
-
-
 .black-place {
     text-align: center;
 }
@@ -1626,15 +1566,14 @@ video#video_background {
     padding: 20px;
     text-align: left;
     position: relative;
-   
 }
 
 .grid figure {
     overflow: hidden;
     position: relative;
     border-radius: 10px;
-     -webkit-box-shadow: 5px 4px 7px 7px rgba(0,0,0,0.4);
-box-shadow: 5px 4px 7px 7px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 5px 4px 7px 7px rgba(0, 0, 0, 0.4);
+    box-shadow: 5px 4px 7px 7px rgba(0, 0, 0, 0.4);
 }
 
 figure img {
@@ -1696,7 +1635,7 @@ figcaption a {
 }
 
 .pop {
-     background: url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fw-dog.net%2Fwallpapers%2F15%2F14%2F470573792362303%2Fleaves-grey-background.jpg&f=1) no-repeat center center;
+    background: url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fw-dog.net%2Fwallpapers%2F15%2F14%2F470573792362303%2Fleaves-grey-background.jpg&f=1) no-repeat center center;
     background-attachment: fixed;
     -webkit-background-size: cover;
     background-size: cover;
@@ -1707,9 +1646,9 @@ figcaption a {
 }
 
 
-
 /* #Media
 ================================================== */
+
 @media (min-width: 900px) {
     .grid figcaption h3 {
         font-size: 30px;
@@ -1720,24 +1659,19 @@ figcaption a {
     #index-black-place {
         height: 20px;
     }
-    
-    
     figcaption a {
         width: 20%;
     }
 }
-
 
 @media (max-width: 600px) {
     .grid li {
         width: 100%;
         min-width: 200px;
     }
-    
     figure img {
         height: auto;
     }
-    
     figure:hover img {
         transform: translateY(-70px);
     }
@@ -1835,7 +1769,6 @@ figcaption a {
         display: none;
     }
 }
-
 
 @media (max-width: 575px) {
     .card-header .btn-link {
