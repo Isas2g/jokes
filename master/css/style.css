@@ -1649,6 +1649,7 @@ figcaption a {
 /* #Media
 ================================================== */
 
+
 @media (min-width: 900px) {
     .grid figcaption h3 {
         font-size: 30px;
@@ -1659,9 +1660,6 @@ figcaption a {
     #index-black-place {
         height: 20px;
     }
-    figcaption a {
-        width: 20%;
-    }
 }
 
 @media (max-width: 600px) {
@@ -1671,12 +1669,6 @@ figcaption a {
     }
     figure img {
         height: auto;
-    }
-    figure:hover img {
-        transform: translateY(-70px);
-    }
-    .grid figcaption {
-        height: 70px;
     }
 }
 

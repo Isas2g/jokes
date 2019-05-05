@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="css/owl.transitions.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/colors/color.css" />
-    <link rel="stylesheet" href="css/for_pages.css" />
     <link rel="stylesheet" href="css/info.css">
     <style>
         ::selection {
@@ -43,7 +42,7 @@
     <div class="section hero-full-height1 over-hide">
         <div id="poster_background"></div>
         <div id="video-wrap" class="parallax-top">
-            <img id="hero-img" data-src="img/info.gif" alt="" class="img img-responsive">
+            <img id="hero-img" data-src="img/info_mobile.jpg" alt="" class="img img-responsive">
         </div>
         <div class="dark-over-video"></div>
 

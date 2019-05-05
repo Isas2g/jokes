@@ -21,7 +21,8 @@
     <meta property="og:image:width" content="470" />
     <meta property="og:image:height" content="246" />
     <meta property="og:site_name" content="" />
-    <meta property="og:description" content="Professional Creative Template" />
+    <meta name="yandex-verification" content="adc1308c58f3aed8" />
+
 
     <!-- Mobile Specific Metas
 	================================================== -->
@@ -100,64 +101,70 @@
     <div class="row pop">
     <ul class="grid cs-style-1">
         <li>
+           <a href="lenskie.php">
             <figure>
                 <img data-src="img/lenskie/stolbik.jpg" alt="img01">
                 <figcaption>
                     <h3>Якутия</h3>
                     <span>Ленские столбы</span>
-                    <a href="lenskie.php">Подробнее...</a>
                 </figcaption>
             </figure>
+            </a>
         </li>
         <li>
+           <a href="geyzer.php">
             <figure>
                 <img data-src="img/dolina_geyzerov/499.jpg" alt="img01">
                 <figcaption>
                     <h3>Камчатка</h3>
                     <span>Долина Гейзеров</span>
-                    <a href="geyzer.php">Подробнее...</a>
                 </figcaption>
             </figure>
+            </a>
         </li>
         <li>
+           <a href="baik.php">
             <figure>
                 <img data-src="img/baikal/tmb_155603_1576.jpg" alt="img01">
                 <figcaption>
                     <h3>Восточная Сибирь</h3>
                     <span>Озеро Байкал</span>
-                    <a href="baik.php">Подробнее...</a>
                 </figcaption>
             </figure>
+            </a>
         </li>
         <li>
+           <a href="put.php">
             <figure>
                 <img data-src="img/plato_putorana/Putorano.jpg" alt="img01">
                 <figcaption>
                     <h3>Красноярский край</h3>
                     <span>Плато Путорана</span>
-                    <a href="put.php">Подробнее...</a>
                 </figcaption>
             </figure>
+            </a>
         </li>
         <li>
+           <a href="elb.php">
             <figure>
                 <img data-src="img/elbrus/9.png" alt="img01">
                 <figcaption>
                     <h3>Кабардино-Балкария</h3>
                     <span>Эльбрус</span>
-                    <a href="elb.php">Подробнее...</a>
                 </figcaption>
             </figure>
+            </a>
         </li>
         <li>
+           <a href="alt.php">
             <figure>
                 <img data-src="img/altai/visit-altai-mountain2.png" alt="img01">
                 <figcaption>
                     <h3>Республика Алтай</h3>
                     <span>Алтайские горы</span>
-                    <a href="alt.php">Подробнее...</a>
                 </figcaption>
             </figure>
+            </a>
         </li>
     </ul>
  </div>
