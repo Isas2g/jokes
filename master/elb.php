@@ -12,9 +12,11 @@
     <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="css/owl.carousel.css" />
     <link rel="stylesheet" href="css/owl.transitions.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
     <link rel="stylesheet" href="css/colors/color.css" />
-    <link rel="stylesheet" href="css/for_pages.css" />
+    <link rel="stylesheet" href="css/for_pages.min.css" />
+
+    <link rel="icon" type="image/png" href="img/logo.png">
     <style>
         ::selection {
             background: #000;
@@ -44,7 +46,7 @@
     <div class="section hero-full-height over-hide">
         <div id="poster_background"></div>
         <div id="video-wrap" class="parallax-top">
-            <img data-src="img/elbrus/hero-elbrus.jpg" alt="" class="img img-responsive">
+            <img data-src="img/elbrus/hero-elbrus.png" alt="" class="img img-responsive">
         </div>
         <div class="dark-over-video"></div>
 

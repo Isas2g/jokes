@@ -15,6 +15,11 @@
     margin: 0;
 }
 
+.sec-bg {
+    background: #fff;
+    opacity: 1;
+}
+
 .menu-el:hover {
     background: #fff;
     color: #000;
@@ -26,14 +31,30 @@
 }
 
 #infoText,
-#hotelsText,
 #costsText,
 #photoText {
     margin: 0 auto;
-    color: #000;
     text-align: left;
     max-width: 600px;
     font-size: 20px;
+}
+
+.sec-inner {
+    font-weight: bolder;
+    color: #fff;
+    background: #000;
+    opacity: .6;
+}
+
+#photoText {
+    width: 100%;
+    height: auto;
+}
+
+
+#infoText ::selection, #costsText ::selection {
+    background: #fff;
+    color: #000;
 }
 
 #background-sec-lenskie {
@@ -74,7 +95,6 @@
 
 .sec-inner {
     z-index: 2;
-    background: #fff;
     width: 80%;
     margin: 0 auto;
     padding-top: 50px;
@@ -106,19 +126,8 @@
     height: 480px;
 }
 
-.hotel-pic {
-    margin-top: 20px;
-    display: block;
-    height: 300px;
-    margin: 0 auto;
-}
-
 .btn {
     font-size: 18px;
-}
-
-.hotel {
-    margin-top: 50px;
 }
 
 @media (max-width: 800px) {
@@ -130,14 +139,8 @@
         width: 100%;
     }
     #infoText,
-    #hotelsText,
     #costsText,
     #photoText {
         width: 100%;
-    }
-    #hotelsText h3,
-    #hotelsText img {
-        width: 100%;
-        height: auto;
     }
 }

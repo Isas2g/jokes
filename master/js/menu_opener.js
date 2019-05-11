@@ -1,6 +1,8 @@
     const info = document.getElementById('info');
     const costs = document.getElementById('costs');
     const photo = document.getElementById('photo');
+    const bg = document.getElementsByClassName('sec-inner')[0];
+
         
     const infoText = document.getElementById('infoText');
     const costsText = document.getElementById('costsText');
@@ -17,6 +19,8 @@
             info.classList.add('active-menu-el');
             costs.classList.remove('active-menu-el');
             photo.classList.remove('active-menu-el');
+            bg.classList.remove('sec-bg');
+            bg.classList.add('sec-inner');
         });
         
         costs.addEventListener('click', () => {
@@ -29,6 +33,8 @@
             info.classList.remove('active-menu-el');
             costs.classList.add('active-menu-el');
             photo.classList.remove('active-menu-el');
+            bg.classList.remove('sec-bg');
+            bg.classList.add('sec-inner');
         });
         
         photo.addEventListener('click', () => {
@@ -41,4 +47,7 @@
             info.classList.remove('active-menu-el');
             costs.classList.remove('active-menu-el');
             photo.classList.add('active-menu-el');
+            bg.classList.add('sec-bg');
+            bg.classList.remove('sec-inner');
         });
+

@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/colors/color.css" />
     <link rel="stylesheet" href="css/info.css">
+
+    <link rel="icon" type="image/png" href="img/logo.png">
     <style>
         ::selection {
             background: #000;

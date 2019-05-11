@@ -1,5 +1,6 @@
 body {
     font-size: 18px;
+    color: #000;
 }
 
 .active {
@@ -15,5 +16,6 @@ div {
 }
 
 .content {
+    margin-top: 60px;
     min-height: 400px;
 }

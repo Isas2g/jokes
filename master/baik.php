@@ -12,9 +12,11 @@
     <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="css/owl.carousel.css" />
     <link rel="stylesheet" href="css/owl.transitions.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
     <link rel="stylesheet" href="css/colors/color.css" />
-    <link rel="stylesheet" href="css/for_pages.css" />
+    <link rel="stylesheet" href="css/for_pages.min.css" />
+
+    <link rel="icon" type="image/png" href="img/logo.png">
     <style>
         ::selection {
             background: #000;
@@ -140,7 +142,8 @@
                                 </ol>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img class="d-block w-100" data-src="img/baikal/baikal_pic1.gif" alt="First slide">
+                                        <img class="d-block w-100" data-src="img/baikal/baikal_pic1.gif" alt="First
+                                        slide">
                                     </div>
                                     <div class="carousel-item">
                                         <img class="d-block w-100" data-src="img/baikal/baikal_pic2.gif" alt="Second slide">

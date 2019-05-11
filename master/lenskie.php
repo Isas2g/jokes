@@ -12,9 +12,11 @@
     <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="css/owl.carousel.css" />
     <link rel="stylesheet" href="css/owl.transitions.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
     <link rel="stylesheet" href="css/colors/color.css" />
     <link rel="stylesheet" href="css/for_pages.css" />
+
+    <link rel="icon" type="image/png" href="img/logo.png">
     <style>
         ::selection {
             background: #000;

@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/colors/color.css" />
     <link rel="stylesheet" href="css/help.css" />
+
+    <link rel="icon" type="image/png" href="img/logo.png">
     <style>
         ::selection {
             background: #000;
@@ -36,7 +38,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 </head>
 
-<body style="color: #000">
+<body>
     <!--   HEADER-->
     <?php include('header.php');?>
 
@@ -100,7 +102,6 @@
     <?php include('footer.php') ?>
 <!--    SCRIPTS-->
 <script src="js/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/reveal-home.js"></script>
