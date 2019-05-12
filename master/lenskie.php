@@ -14,26 +14,9 @@
     <link rel="stylesheet" href="css/owl.transitions.css" />
     <link rel="stylesheet" href="css/style.min.css" />
     <link rel="stylesheet" href="css/colors/color.css" />
-    <link rel="stylesheet" href="css/for_pages.css" />
+    <link rel="stylesheet" href="css/for_pages.min.css" />
 
     <link rel="icon" type="image/png" href="img/logo.png">
-    <style>
-        ::selection {
-            background: #000;
-            color: #fff;
-        }
-
-        ::-moz-selection {
-            background: #000;
-            color: #fff;
-        }
-
-        ::-webkit-selection {
-            background: #000;
-            color: #fff;
-        }
-
-    </style>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 </head>
@@ -160,7 +143,7 @@
             </div>
         </div>
     </div>
-    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1920.4774546437527!2d128.56999151573714!3d61.22674396449807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5c08522a4364c7fd%3A0xb9139f5cea477278!2z0JvQtdC90YHQutC40LUg0YHRgtC-0LvQsdGL!5e0!3m2!1sru!2sru!4v1555223383658!5m2!1sru!2sru" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d245964.0742358513!2d128.38483327289!3d61.20844422959601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5c08522a4364c7fd%3A0xb9139f5cea477278!2z0JvQtdC90YHQutC40LUg0YHRgtC-0LvQsdGL!5e0!3m2!1sru!2sru!4v1557639325368!5m2!1sru!2sru" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
     <?php include('footer.php');?>
 

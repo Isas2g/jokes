@@ -17,23 +17,6 @@
     <link rel="stylesheet" href="css/for_pages.min.css" />
 
     <link rel="icon" type="image/png" href="img/logo.png">
-    <style>
-        ::selection {
-            background: #000;
-            color: #fff;
-        }
-
-        ::-moz-selection {
-            background: #000;
-            color: #fff;
-        }
-
-        ::-webkit-selection {
-            background: #000;
-            color: #fff;
-        }
-
-    </style>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 </head>
@@ -156,7 +139,7 @@
             </div>
         </div>
     </div>
-    <iframe  id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11605.180434213114!2d42.43657532967462!3d43.349937316123224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40590ad75c4e757f%3A0x93b32f99989061ef!2z0K3Qu9GM0LHRgNGD0YE!5e0!3m2!1sru!2sru!4v1555221193151!5m2!1sru!2sru" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>      
+    <iframe  id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d371634.6087240743!2d42.164406237555426!3d43.305982021182025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40590ad75c4e757f%3A0x93b32f99989061ef!2z0K3Qu9GM0LHRgNGD0YE!5e0!3m2!1sru!2sru!4v1557640053073!5m2!1sru!2sru" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> 
               <?php include('footer.php');?>
 
 
